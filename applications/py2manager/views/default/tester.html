@@ -1,0 +1,13 @@
+{{extend 'layout.html'}}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tester</title>
+</head>
+<body>
+{{numbers = [1,2,3]}}
+<ul>
+    {{for n in numbers:}}<li>{{=n}}</li>{{pass}}
+</ul>
+</body>
+</html>
